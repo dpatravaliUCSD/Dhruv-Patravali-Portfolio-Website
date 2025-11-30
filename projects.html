@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dhruv Patravali · Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="site-shell">
+        <nav class="navbar">
+          <a class="navbar__brand" href="index.html">DP.</a>
+          <button class="navbar__toggle" type="button" aria-expanded="false" data-nav-toggle>
+            Menu
+          </button>
+          <ul class="navbar__links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="resume.html">Résumé</a></li>
+            <li><a class="is-active" href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-shell">
+      <section class="hero" style="padding-bottom: 1rem;">
+        <p class="hero__kicker">Projects</p>
+        <h1 class="hero__title">What I've been working on</h1>
+        <p class="hero__lead">
+          Projects in Machine Learning, Deep Learning, and Backend Web Development
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="card-grid">
+          <article class="card">
+            <div class="section__heading" style="margin-bottom: 0.75rem;">
+              <h2 class="section__title" style="font-size: 1.3rem; margin: 0;">Climate Model</h2>
+              <span class="pill">Team Developer · Fall 2024</span>
+            </div>
+            <p>
+              Designed a 3D U-Net convolutional neural network to predict global temperature and precipitation patterns from worldwide spatiotemporal indicator datasets. Iterated across architectures, regularization strategies, and evaluation metrics to optimize performance.
+            </p>
+            <ul class="list-clean">
+              <!-- <li>PyTorch · 3D U-Net · Climate ML</li> -->
+              <li><a href="https://github.com/dpatravaliUCSD/CSE151b-KaggleCompetition">Climate Prediction Repository</a></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="section__heading" style="margin-bottom: 0.75rem;">
+              <h2 class="section__title" style="font-size: 1.3rem; margin: 0;">Stock Market Prediction</h2>
+              <span class="pill">Team Developer · Fall 2024</span>
+            </div>
+            <p>
+              Built a regression pipeline to forecast stock-market closing prices using Polynomial Regression, Lasso/Ridge, and Support Vector Regression. Focused on data preprocessing, hyperparameter tuning, and error analysis to compare model behavior and improve predictive performance.
+            </p>
+            <ul class="list-clean">
+              <li><a href="https://github.com/d-patravali/CSE151A_Project_2024">Stock Market Prediction Repository</a></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="section__heading" style="margin-bottom: 0.75rem;">
+              <h2 class="section__title" style="font-size: 1.3rem; margin: 0;">Developer Journal</h2>
+              <span class="pill">Backend Developer · Spring 2024</span>
+            </div>
+            <p>
+              Developed a progressive web application for software teams to manage projects with an integrated calendar, task board, and markdown-based journal. Implemented Agile workflows and GitHub Actions CI pipelines for automated unit and end-to-end testing to ensure system reliability.
+            </p>
+            <ul class="list-clean">
+              <li><a href="https://cse110-sp24-group21.github.io/cse110-sp24-group21/">Developer Journal Web App</a></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+
+    <script src="scripts.js" defer></script>
+  </body>
+</html>
